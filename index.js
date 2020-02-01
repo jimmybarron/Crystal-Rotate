@@ -8,6 +8,7 @@ const crystalSpin = new ThreeSixty(document.querySelector('.crystalSpin'), {
   perRow: 12,
   draggable: true,
   swipeable: true,
-  dragTolerance: 0.5,
-  swipeTolerance: 0.5
+  dragTolerance: 1,
+  swipeTolerance: 1,
+  inverted: true
 });
