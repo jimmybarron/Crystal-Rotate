@@ -1,8 +1,8 @@
 console.log(document.querySelector('.crystalSpin'))
 
 const crystalSpin = new ThreeSixty(document.querySelector('.crystalSpin'), {
-  width: 375,
-  height: 210,
+  width: 360,
+  height: 180,
   image: './image-sequence/crystal_sprite_2.png',
   count: 253,
   perRow: 12,
