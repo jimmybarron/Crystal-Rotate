@@ -29,6 +29,18 @@ body {
   background-color: #FFF8E8;
 }
 
+.drag-icon {
+  position: relative;
+  width: 100px;
+  top: -30px;
+  left: 45%;
+}
+
+.drag-icon img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .bottom-slice {
   background-image: url(./bottom-slice.jpg);
   background-size: contain;
